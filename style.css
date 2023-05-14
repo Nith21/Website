@@ -1,0 +1,49 @@
+/* *{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+} */
+
+.row{
+    margin-right: 0 !important;
+}
+
+a{
+    font-size: 36px;
+    text-decoration: none;
+    color: white;
+    z-index: 100000;
+}
+.corouImage{
+    height: 700px;
+    object-fit: cover;
+}
+.bananaImage, .carrotImage, .cabbageImage, .cherryImage, .tomatoImage, .appleImage{
+    object-fit: cover;
+    height: 287px;
+}
+.bellPepperImage{
+    height: 287px;
+}
+span{
+    margin: 5px;
+}
+
+.footerCards{
+    gap: 60px;
+    color: whitesmoke;
+}
+.footerRow{
+    color: whitesmoke;
+}
+.row *{
+   margin-left: 0;
+   margin-right: 0;
+}
+/* @media screen and (min-width: 0px) and (max-width: 560px) {
+    .footerRow{
+        display: grid;
+        grid-template-columns: repeat(1);
+    }
+    
+} */
