@@ -6,6 +6,7 @@
 
 .row {
   margin-right: 0 !important;
+  box-sizing: border-box !important;
 }
 
 a {
@@ -15,7 +16,9 @@ a {
   z-index: 100000;
 }
 .corouImage {
-  max-height: 700px;
+  max-width: 100%;
+  min-height: 40rem;
+  max-height: 10rem;
   object-fit: cover;
   background-repeat: no-repeat;
 }
