@@ -15,8 +15,9 @@ a {
   z-index: 100000;
 }
 .corouImage {
-  height: 700px;
+  max-height: 700px;
   object-fit: cover;
+  background-repeat: no-repeat;
 }
 .bananaImage,
 .carrotImage,
